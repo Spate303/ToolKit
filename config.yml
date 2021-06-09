@@ -1,0 +1,47 @@
+#ToolKit Test config
+#Errors
+
+Error:
+  console_error: '&c[*] The console cannot do this command!'
+  permissions_error: '&c[*] You do not have permission for this command!'
+
+#Commands
+
+Feed:
+  feed_complete: '&aYou have been fed!'
+  feed_incomplete: '&cYou were not hungry!'
+  feed_invalid: '&e/feed <player>'
+  feed_player_complete: '&d<player> has been fed!'
+  feed_player_incomplete: '&c<player> has full hunger!'
+  feed_target_notification: '&d<sender> has replenished your hunger!'
+
+Heal:
+  heal_complete: '&aYou have been healed!'
+  heal_incomplete: '&cYou were already healthy!'
+  heal_invalid: '&e/heal <player>'
+  heal_player_complete: '&d<player> has been healed!'
+  heal_player_incomplete: '&c<player> has full health!'
+  heal_target_notification: '&d<sender> has replenished your health!'
+
+Fly:
+  fly_enable: '&aYou have enabled fly!'
+  fly_disable: '&cYou have disabled fly!'
+  fly_invalid: '&e/fly <player>'
+  fly_player_enabled: '&d<player> flight has been enabled!'
+  fly_player_disabled: '&c<player> flight has been disabled!'
+  fly_target_notification: '&dYour flight ability has magically changed!'
+  
+#Listeners
+
+Listener:
+  firstJoin: '&b<player> has joined us for the first time! Be sure to greet them!'
+  rejoin: '&b<player> has rejoined the server!'
+  MOTD: '&7Enjoy your stay! Do &e/help &7for command help!'
+  Quit: '&b<player> has disconnected, Bye!'
+
+Money:
+  money_invalid: '&e/money <add:set:remove> <player> <amount>
+  money_invalid_add: '&e/money <add> <player> <amount>
+  money_invalid_set: '&e/money <set> <player> <amount>
+  money_invalid_remove: '&e/money <remove> <player> <amount>
+  money_invalid_get: '&e/money <get> <player>

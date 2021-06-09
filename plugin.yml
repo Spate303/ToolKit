@@ -1,0 +1,16 @@
+name: ToolKit
+version: 1.1
+main: me.ANiceHippo.toolkit.Main
+description: ToolKit test
+author: ANiceHippo
+api-version: 1.16.5
+
+commands:
+  feed:
+    description: Feeds player back to max hunger!
+  heal:
+    description: Heals player back to max health!
+  fly:
+    description: enables creative flight in survival
+  money:
+    description: DOGECOIN!
