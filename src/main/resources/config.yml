@@ -1,0 +1,32 @@
+# ToolKit Config. Do not edit sections unless it says otherwise!
+
+
+# Permissions
+NoPerm: '&4You do not have permission for this!'
+NoOP: '&4You do not have OP. This command is for admins only!'
+ConsoleError: '&4[*] Console cannot issue this command!'
+CommandBlockError: '&4Cannot use command in Command block!'
+
+# Successful Commands
+HealConfirm: '&aSuccessfully healed!'
+HealTargetConfirm: '&aSuccessfully healed &e<player>&a!'
+FeedConfirm: '&aSuccessfully fed!'
+FeedTargetConfirm: '&aSuccessfully fed &e<player>&a!'
+GodEnabled: '&aGod mode enabled! You are now invulnerable!'
+GodTargetEnabled: '&e<player> &anow has godlike abilities!'
+FlyEnabled: '&aFlight enabled!'
+FlyTargetEnabled: '&e<player> &acan now creative fly!'
+VanishEnabled: '&aYou are now invisible! Spooooky!'
+VanishTargetEnabled: '&e<player> &ais now invisible!'
+
+# Denied/Disabled Commands
+HealDeny: '&cYou are already at full health.'
+HealTargetDenied: '&e<player> &cis at full health!'
+FeedDeny: '&cYou are already at full hunger.'
+FeedTargetDenied: '&e<player> &cis at full hunger!'
+GodDisabled: '&cGod mode disabled! You are now vulnerable!'
+GodTargetDisabled: '&e<player> &cno longer contains godlike abilities!'
+FlyDisabled: '&cFlight disabled!'
+FlyTargetDisabled: '&e<player> &ccan no longer creative fly!'
+VanishDisabled: '&cYou are no longer invisible!'
+VanishTargetDisabled: '&e<player> &cis no longer invisible'
