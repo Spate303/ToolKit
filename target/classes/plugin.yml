@@ -1,0 +1,34 @@
+name: ToolKit
+version: '2.0'
+main: me.anicehippo.toolkit.ToolKit
+api-version: 1.17
+authors: [ANiceHippo]
+description: Plugin to make life simple
+commands:
+  heal:
+    description: Heal target to max health!
+    usage: /<command> [player]
+  feed:
+    description: Feed target to max hunger!
+    usage: /<command> [player]
+  god:
+    description: Make yourself invulnerable
+    usage: /<command> [player]
+  fly:
+    description: Creative flight!
+    usage: /<command> [player]
+  survival:
+    description: Change to survival!
+    usage: /<command>
+    aliases:
+      - gms
+  creative:
+    description: Change to creative mode!
+    usage: /<command>
+    aliases:
+      - gmc
+  vanish:
+    description: Go completely invisible!
+    usage: /<command> [player]
+    aliases:
+      - v
